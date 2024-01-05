@@ -9,6 +9,7 @@
         height: 65vh;
         object-fit: cover;
     }
+
     i{
         color: $gray-600;
     }
@@ -16,7 +17,7 @@
     .bannerContent{
         display: block;
         position: absolute;
-        top: 7rem;
+        top: 8rem;
         left: 4rem;
         max-width: 20rem;
 
@@ -45,7 +46,8 @@
         margin-top: 2rem;
 
         img{
-            max-height: 60vh;
+            margin-top: 3rem;
+            height: 90%;
         }
 
         .bannerContent{
@@ -58,6 +60,10 @@
     }
 
     @include atSmall {
+        img{
+            margin-top: 1.75rem;
+        }
+
         .bannerContent{
             left: 1rem;
 
@@ -85,15 +91,14 @@
     padding: 0 2rem;
 
     .bannerContentCard{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
         text-align: center;
         line-height: 1.6rem;
     }
 
     .bannerCard{
-        width: 30%;
         padding: 1rem;
         background-color: $gray-800;
         color: $white;
@@ -116,11 +121,10 @@
 
     @include atSmall {
         background-color: $gray-200;
+        margin-top: 2rem;
 
-        .bannerCard{
-            width: auto;
-            flex-wrap: wrap;
-            margin: 1rem 0;
+        .bannerContentCard{
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 }
