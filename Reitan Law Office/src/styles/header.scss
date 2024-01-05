@@ -1,0 +1,40 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0;
+    padding: 1rem 5rem;
+
+    background-color: $gray-800;
+    width: 100vw;
+    z-index: 1;
+
+    img{
+        max-width: 10rem;
+    }
+
+    a{
+        color: $white;
+        border: 1px solid $white;
+    }
+
+    a:hover, button:hover {
+        color: $primary-color;
+        background-color: $gray-800;
+        border: 1px solid $secondary-color;
+    }
+
+    @include atMedium {
+        padding: 1rem 2rem;
+    }
+
+    @include atSmall {
+        img{
+            max-width: 7rem;
+        }
+    }
+}
