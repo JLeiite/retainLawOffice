@@ -1,6 +1,7 @@
 # React Template - Retain Law Office
 
-Bem-vindo ao nosso repositório! Este template foi criado para apresentar um escritório de advocacia e seus serviços jurídicos.
+Bem-vindo ao nosso repositório! Este template foi criado para apresentar um escritório de advocacia e seus serviços jurídicos. 
+[Acesse o site]([http://exemplo.com/](https://jleiite.github.io/retainlawoffice/)).
 
 Para utilizar este template, você precisará de:
 
