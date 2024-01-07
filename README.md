@@ -7,12 +7,12 @@ Para utilizar este template, você precisará de:
 
 - Logotipo da empresa
 - Imagem de capa
-- Número do WhatsApp
+- WhatsApp (numero + mensagem de boas vindas)
 - Lista de 6 a 9 serviços oferecidos (destacando 3)
 - Introdução sobre a empresa
 - Números promocionais (por exemplo, ano de fundação, quantidade de clientes, total de casos analisados)
-- Foto da empresa (opcional)
-- Paleta de cores (opcional)
+- Foto da empresa
+- Paleta de cores
 
 Sinta-se à vontade para personalizar o conteúdo de acordo com a identidade única do seu escritório e suas ofertas.
 
@@ -36,12 +36,12 @@ To use this template, you'll need:
 
 - Company logo
 - Cover banner image
-- WhatsApp number
+- WhatsApp (number + welcome message)
 - List of 6 to 9 services offered (highlight 3)
 - Introduction about the company
 - Promotional numbers (e.g., year of establishment, number of clients, total cases analyzed)
-- Company photo (optional)
-- Color pallet (optional)
+- Company photo
+- Color pallet
 
 Feel free to customize the content to suit your firm's unique identity and offerings.
 
